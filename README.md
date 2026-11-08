@@ -1,4 +1,4 @@
-<h1>Aufgabe_0</h1>
+<h1>cpp20-paradigms-benchmark</h1>
 <p>Empirical benchmark comparing functional programming paradigms and zero-cost abstractions in C++20</p>
 
 <h2>Project description</h2>
@@ -20,7 +20,7 @@
 <h2>Project files</h2>
 <table>
   <tr>
-    <th colspan="2">Aufgabe_0</th>
+    <th colspan="2">cpp20-paradigms-benchmark</th>
   </tr>
   <tr>
     <td>CMakeLists.txt</td>
@@ -43,10 +43,10 @@
       <dl>
         <dt>Clone the repository</dt>
         <dd>
-          <code>git clone https://github.com/Kyoryuu-lab/Aufgabe_0.git</code>
+          <code>git clone https://github.com/Kyoryuu-lab/cpp20-paradigms-benchmark.git</code>
         </dd>
         <dd>
-          <code>cd Aufgabe_0</code>
+          <code>cd cpp20-paradigms-benchmark</code>
         </dd>
       </dl>
     </li>
