@@ -2,19 +2,19 @@
 <p>Empirical benchmark comparing functional programming paradigms and zero-cost abstractions in C++20</p>
 
 <h2>Project description</h2>
-<p>This project explores modern C++ standard library features, functional abstractions, and comparative timing measurements[span_2](start_span)[span_2](end_span):</p>
+<p>This project explores modern C++ standard library features, functional abstractions, and comparative timing measurement:</p>
 <ol>
-  <li>Generates a vector of <code>n</code> random alphanumeric characters (case-insensitive)[span_3](start_span)[span_3](end_span).</li>
-  <li>Inserts elements into a priority queue (<code>std::priority_queue</code>) with a custom case-insensitive comparator[span_4](start_span)[span_4](end_span).</li>
+  <li>Generates a vector of <code>n</code> random alphanumeric characters (case-insensitive).</li>
+  <li>Inserts elements into a priority queue (<code>std::priority_queue</code>) with a custom case-insensitive comparator.</li>
   <li>
     <dl>
-      <dt>Implements and compares three distinct architectural styles[span_5](start_span)[span_5](end_span):</dt>
-      <dd><b>Classical:</b> Imperative loops (<code>for</code>/<code>while</code>) without STL algorithms[span_6](start_span)[span_6](end_span).</dd>
-      <dd><b>Functional:</b> Loop-free STL algorithms (<code>std::generate</code>, <code>std::for_each</code>) and custom struct functors[span_7](start_span)[span_7](end_span).</dd>
-      <dd><b>Lambda:</b> In-place anonymous lambda expressions and deduced comparator types[span_8](start_span)[span_8](end_span).</dd>
+      <dt>Implements and compares three distinct architectural styles:</dt>
+      <dd><b>Classical:</b> Imperative loops (<code>for</code>/<code>while</code>) without STL algorithms.</dd>
+      <dd><b>Functional:</b> Loop-free STL algorithms (<code>std::generate</code>, <code>std::for_each</code>) and custom struct functors.</dd>
+      <dd><b>Lambda:</b> In-place anonymous lambda expressions and deduced comparator types.</dd>
     </dl>
   </li>
-  <li>Measures vector filling and queue sorting latency in microseconds (μs)[span_9](start_span)[span_9](end_span).</li>
+  <li>Measures vector filling and queue sorting latency in microseconds (μs).</li>
 </ol>
 
 <h2>Project files</h2>
@@ -28,7 +28,7 @@
   </tr>
   <tr>
     <td>main.cpp</td>
-    <td>Main application implementing all three functional variants[span_10](start_span)[span_10](end_span)</td>
+    <td>Main application implementing all three functional variants</td>
   </tr>
   <tr>
     <td>README.md</td>
